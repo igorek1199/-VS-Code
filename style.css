@@ -1,17 +1,45 @@
+@font-face {
+  font-family: "Gothic A1";
+  font-weight: 400;
+  font-style: normal;
+
+  font-display: swap;
+
+  src:
+  url("../fonts/GothicA1-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Gothic A1";
+  font-weight: 800;
+  font-style: normal;
+
+  font-display: swap;
+
+  src:
+  url("../fonts/GothicA1-ExtraBold.woff") format("woff");
+}
+body{
+  font-family: "Gothic A1", "Arial", sans-serif;
+  font-weight:400;
+  font-style:normal;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*/
 *{
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .form__title{
-  font-family: "Open Sans";
+  font-family: "Gothic A1";
   text-align: center;
-  font-weight: bold;
+  font-weight: 800;
+  font-style:normal;
   color:#46495C;
 }
 .container {
   display:flex;
   flex-direction: column;
-  min-height: 90vh;
+  min-height: 100dvh;
   justify-content: center;
   align-items: center;
 }
@@ -31,17 +59,16 @@ body{
   border-radius: 18px;
   background: white; 
 }
-
-
 .form__input{
   background: white; 
   width: 100%;
   height: 64px;
   border-radius:8px;
   padding: 12px 20px;
-  border: 1px;
+  border: 1px solid #C9CCDD;
   margin: 8px 1px;
-  }
+  } 
+  
 /*box-sizing: border-box*/
 /*
 Внешний отступ (margin)
@@ -52,6 +79,7 @@ display: block; каждый элемент появляется друг за �
   width: 80%;
   padding: 10px;
   margin: 1px;
+  
 }
 
 .form__btn{
@@ -65,3 +93,6 @@ display: block; каждый элемент появляется друг за �
   width: 100%;
   border-radius:14px;
 }
+/*body {
+  font-family: "Roboto", "Arial", sans-serif;
+}*/
