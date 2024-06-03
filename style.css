@@ -6,7 +6,7 @@
   font-display: swap;
 
   src:
-  url("../fonts/OpenSans_Condensed-SemiBold.woff") format("woff");
+  url("./fonts/OpenSans-SemiBold.woff") format("woff");
 }
 @font-face {
   font-family: "Gothic A1";
@@ -16,7 +16,7 @@
   font-display: swap;
 
   src:
-  url("../fonts/GothicA1-Regular.woff") format("woff");
+  url("./fonts/GothicA1-Regular.woff") format("woff");
 }
 @font-face {
   font-family: "Gothic A1";
@@ -26,7 +26,7 @@
   font-display: swap;
 
   src:
-  url("../fonts/GothicA1-ExtraBold.woff") format("woff");
+  url("./fonts/GothicA1-ExtraBold.woff") format("woff");
 }
 body{
   font-family: "Gothic A1", "Arial", sans-serif;
