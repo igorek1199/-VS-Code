@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+  
+    font-display: swap;
+  
+    src:
+    url("./fonts/OpenSans-SemiBold.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Gothic A1";
+    font-weight: 400;
+    font-style: normal;
+  
+    font-display: swap;
+  
+    src:
+    url("./fonts/GothicA1-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Gothic A1";
+    font-weight: 800;
+    font-style: normal;
+  
+    font-display: swap;
+  
+    src:
+    url("./fonts/GothicA1-ExtraBold.woff") format("woff");
+  }

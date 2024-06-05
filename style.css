@@ -1,40 +1,12 @@
-@font-face {
-  font-family: "Open Sans";
-  font-weight: 600;
-  font-style: normal;
+@import "./fonts.css";
+@import "./normalize.css";
 
-  font-display: swap;
-
-  src:
-  url("./fonts/OpenSans-SemiBold.woff") format("woff");
-}
-@font-face {
-  font-family: "Gothic A1";
-  font-weight: 400;
-  font-style: normal;
-
-  font-display: swap;
-
-  src:
-  url("./fonts/GothicA1-Regular.woff") format("woff");
-}
-@font-face {
-  font-family: "Gothic A1";
-  font-weight: 800;
-  font-style: normal;
-
-  font-display: swap;
-
-  src:
-  url("./fonts/GothicA1-ExtraBold.woff") format("woff");
-}
 body{
   font-family: "Gothic A1", "Arial", sans-serif;
   font-weight:400;
   font-style:normal;
 }
-/* @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*/
+
 *{
   box-sizing: border-box;
 }
@@ -46,6 +18,7 @@ body{
   font-style:normal;
   color:#46495C;
 }
+
 .container {
   display:flex;
   flex-direction: column;
@@ -55,10 +28,9 @@ body{
 }
 
 body{
-
   background-color: #46495C;
-
 }
+
 .form {
   box-sizing: border-box;
   width: 100%;
@@ -69,6 +41,7 @@ body{
   border-radius: 18px;
   background: white; 
 }
+
 .form__input{
   background: white; 
   width: 100%;
@@ -79,16 +52,13 @@ body{
   margin: 8px 1px;
   } 
   
-/*box-sizing: border-box*/
-/*
-Внешний отступ (margin)
-Внутренний отступ (padding)
-border(граница)
-display: block; каждый элемент появляется друг за другом сверху вниз -  */
 .form__label{
   width: 80%;
   padding: 10px;
   margin: 1px;
+  color:#001C3D;
+  font-size:16px;
+  line-height:24px;
   
 }
 
@@ -103,6 +73,3 @@ display: block; каждый элемент появляется друг за �
   width: 100%;
   border-radius:14px;
 }
-/*body {
-  font-family: "Roboto", "Arial", sans-serif;
-}*/
