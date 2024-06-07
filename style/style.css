@@ -1,5 +1,5 @@
-@import "./style/fonts.css";
-@import "./style/Normalize.css";
+@import "./fonts.css";
+@import "./Normalize.css";
 
 body{
   font-family: "Gothic A1", "Arial", sans-serif;
