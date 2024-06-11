@@ -80,3 +80,8 @@ body{
   width: 100%;
   border-radius:14px;
 }
+@media screen and (max-width: 768px){
+  .form{
+   padding:124px 20px;
+  }
+}
